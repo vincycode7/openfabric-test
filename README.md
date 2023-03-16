@@ -44,7 +44,9 @@ Running with Python:
 
     `pip install -r requirements.txt`
 
-4. Once the installation is complete, start the server by running the following command:
+4. Run `pytest` to make sure the everything is working properly.
+
+5. Once the installation is complete, start the server by running the following command:
 
     `./start.sh` or `python ignite.py`
 
