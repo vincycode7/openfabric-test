@@ -46,6 +46,15 @@ Running with Python:
 
 This will start the server and you can access the API endpoint by visiting http://localhost:5000 in your web browser or running queries via tools like Postman.
 
+## Query samples
+
+    {
+    "text": [
+        "what's the laws of thermodynamics in simple english?"
+        
+    ]
+    }
+
 
 ## Requirement
 The current project has the blueprint structure of an AI App. 
