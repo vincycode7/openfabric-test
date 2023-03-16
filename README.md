@@ -16,11 +16,15 @@ This program can be run in two ways - using Docker or running the Python script.
 
     `docker build -t openfabric-intern:1.0 .`
 
-5. Once the build process is complete, start the container in detach mode using the following command:
+5. Once the build process is complete, start the container by running the following command
 
+    `docker run -p 5000:5000 openfabric-intern:1.0` or 
+    
+    start the container in detach mode using the following command:
+    
     `docker run -d -p 5000:5000 openfabric-intern:1.0`
 
-6. To stop and remove the running container, run 
+6. If running in detached mode to stop and remove the running container, run 
     `docker ps` 
     then pick the <container-id> of the running container
     
