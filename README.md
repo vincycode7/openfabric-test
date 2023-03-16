@@ -50,6 +50,21 @@ Running with Python:
 
 This will start the server and you can access the API endpoint by visiting http://localhost:5000 in your web browser or running queries via tools like Postman.
 
+## Query Endpoints
+
+To send messages to the bot/server 
+1. Install and open postman
+2. change request type to `POST`
+3. paste url `http://localhost:5000/app`
+4. go to body and change dropdown to `JSON`
+5. paste query 
+    
+    {
+    "text": [
+        "what's the laws of thermodynamics in simple english?"    
+    ]
+    }
+
 ## Query samples
 
     {
