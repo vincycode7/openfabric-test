@@ -100,7 +100,7 @@ class Chatter:
         response = self.chatbot.get_response(text)
 
         # Train on new user data and bot response
-        self.train(conversation_list=[text, response.text])
+        # self.train(conversation_list=[text, response.text])
 
         return response.text
 
